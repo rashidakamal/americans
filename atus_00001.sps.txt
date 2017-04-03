@@ -1,0 +1,686 @@
+* NOTE: You need to edit the `cd` command to specify the path to the directory
+* where the data file is located. For example: "C:\ipums_directory".
+* .
+
+cd ".".
+
+data list file = "atus_00001.dat" /
+  CASEID                 1-14
+  YEAR                   15-19
+  PERNUM                 20-21
+  LINENO                 22-24
+  DATE                   25-33
+  WT06                   34-50
+  AGE                    51-53
+  SEX                    54-55
+  RACE                   56-59
+  MARST                  60-61
+  CITIZEN                62-64
+  GENHEALTH              65-66
+  HEIGHT                 67-69
+  WEIGHT                 70-73
+  BMI                    74-79
+  EDUC                   80-82
+  EDUCYRS                83-85
+  SCHLCOLL               86-87
+  SCHLCOLL_CPS8          88-89
+  EMPSTAT                90-91
+  CLWKR                  92-93
+  OCC2                   94-97
+  QCITIZEN               98-100
+  Q1SCHLCOLL             101-103
+  Q2SCHLCOLL             104-106
+  Q3SCHLCOLL             107-109
+  Q1RACE                 110-112
+  Q2RACE                 113-114
+  QEDUC                  115-117
+  QMARST                 118-120
+  QCLWKR                 121-123
+  QAGE                   124-126
+  QSEX                   127-129
+  Q1SCHLCOLL_CPS8        130-132
+  Q2SCHLCOLL_CPS8        133-135
+  Q3SCHLCOLL_CPS8        136-138
+  QEDUCYRS               139-140
+  QEMPSTAT               141-143
+  QHEIGHT                144-145
+  QWEIGHT                146-147
+  QGENHEALTH             148-150
+  BLS_CAREHH             151-154
+  BLS_CAREHH_ADULT       155-158
+  BLS_CAREHH_KID         159-162
+  BLS_CAREHH_KIDEDUC     163-166
+  BLS_CAREHH_KIDHEALTH   167-170
+  BLS_CAREHH_KIDOTHER    171-174
+  BLS_CAREHH_TRAVEL      175-178
+  BLS_CARENHH            179-182
+  BLS_CARENHH_ADULT      183-186
+  BLS_CARENHH_ADULTCARE  187-190
+  BLS_CARENHH_ADULTHELP  191-194
+  BLS_CARENHH_KID        195-198
+  BLS_CARENHH_TRAVEL     199-202
+  BLS_COMM               203-206
+  BLS_COMM_MSG           207-210
+  BLS_COMM_MSGEMAIL      211-214
+  BLS_COMM_MSGMAIL       215-218
+  BLS_COMM_TELE          219-222
+  BLS_COMM_TRAVEL        223-226
+  BLS_EDUC               227-230
+  BLS_EDUC_CLASS         231-234
+  BLS_EDUC_HWORK         235-238
+  BLS_EDUC_TRAVEL        239-242
+  BLS_FOOD               243-246
+  BLS_FOOD_FOOD          247-250
+  BLS_FOOD_TRAVEL        251-254
+  BLS_HHACT              255-258
+  BLS_HHACT_EXTER        259-262
+  BLS_HHACT_FOOD         263-266
+  BLS_HHACT_HHMGMT       267-270
+  BLS_HHACT_HWORK        271-274
+  BLS_HHACT_INTER        275-278
+  BLS_HHACT_LAWN         279-282
+  BLS_HHACT_PET          283-286
+  BLS_HHACT_TOOL         287-290
+  BLS_HHACT_TRAVEL       291-294
+  BLS_HHACT_VEHIC        295-298
+  BLS_LEIS               299-302
+  BLS_LEIS_ARTS          303-306
+  BLS_LEIS_ATTEND        307-310
+  BLS_LEIS_ATTSPORT      311-314
+  BLS_LEIS_PARTSPORT     315-318
+  BLS_LEIS_RELAX         319-322
+  BLS_LEIS_SOC           323-326
+  BLS_LEIS_SOCCOM        327-330
+  BLS_LEIS_SOCCOMEX      331-334
+  BLS_LEIS_SPORT         335-338
+  BLS_LEIS_TRAVEL        339-342
+  BLS_LEIS_TV            343-346
+  BLS_OTHER              347-350
+  BLS_PCARE              351-354
+  BLS_PCARE_ACT          355-358
+  BLS_PCARE_GROOM        359-362
+  BLS_PCARE_HEALTH       363-366
+  BLS_PCARE_SLEEP        367-370
+  BLS_PCARE_TRAVEL       371-374
+  BLS_PURCH              375-378
+  BLS_PURCH_BANK         379-382
+  BLS_PURCH_CONS         383-386
+  BLS_PURCH_GOV          387-390
+  BLS_PURCH_GROC         391-394
+  BLS_PURCH_HEALTH       395-398
+  BLS_PURCH_HHSERV       399-402
+  BLS_PURCH_HOME         403-406
+  BLS_PURCH_PCARE        407-410
+  BLS_PURCH_PROF         411-414
+  BLS_PURCH_TRAVEL       415-418
+  BLS_PURCH_VEHIC        419-422
+  BLS_SOCIAL             423-426
+  BLS_SOCIAL_ADMIN       427-430
+  BLS_SOCIAL_ATTEND      431-434
+  BLS_SOCIAL_CIVIC       435-438
+  BLS_SOCIAL_CULTURE     439-442
+  BLS_SOCIAL_MAINTEN     443-446
+  BLS_SOCIAL_RELIG       447-450
+  BLS_SOCIAL_SOCSERV     451-454
+  BLS_SOCIAL_TRAVEL      455-458
+  BLS_SOCIAL_VOL         459-462
+  BLS_SOCIAL_VOLACT      463-466
+  BLS_WORK               467-470
+  BLS_WORK_OTHER         471-474
+  BLS_WORK_SEARCH        475-478
+  BLS_WORK_TRAVEL        479-482
+  BLS_WORK_WORKING       483-486
+  BLS_WORK_WORKREL       487-490
+.
+
+variable labels
+  CASEID                   "ATUS Case ID"
+  YEAR                     "Survey year"
+  PERNUM                   "Person number (general)"
+  LINENO                   "Person line number"
+  DATE                     "Date of ATUS interview"
+  WT06                     "Person weight, 2006 methodology"
+  AGE                      "Age"
+  SEX                      "Sex"
+  RACE                     "Race"
+  MARST                    "Marital status"
+  CITIZEN                  "Citizenship status"
+  GENHEALTH                "General health"
+  HEIGHT                   "Height (in inches)"
+  WEIGHT                   "Weight (in pounds)"
+  BMI                      "Body Mass Index"
+  EDUC                     "Highest level of school completed"
+  EDUCYRS                  "Years of education"
+  SCHLCOLL                 "Enrollment in school or college"
+  SCHLCOLL_CPS8            "Enrollment in school or college (CPS)"
+  EMPSTAT                  "Labor force status"
+  CLWKR                    "Class of worker, main job"
+  OCC2                     "General occupation category, main job"
+  QCITIZEN                 "CITIZEN: allocation flag"
+  Q1SCHLCOLL               "SCHLCOLL: allocation flag"
+  Q2SCHLCOLL               "SCHLCOLL: allocation flag"
+  Q3SCHLCOLL               "SCHLCOLL: allocation flag"
+  Q1RACE                   "RACE: allocation flag"
+  Q2RACE                   "RACE: allocation flag"
+  QEDUC                    "EDUC: allocation flag"
+  QMARST                   "MARST: allocation flag"
+  QCLWKR                   "CLWKR: allocation flag"
+  QAGE                     "AGE: allocation flag"
+  QSEX                     "SEX: allocation flag"
+  Q1SCHLCOLL_CPS8          "SCHLCOLL_CPS8: allocation flag"
+  Q2SCHLCOLL_CPS8          "SCHLCOLL_CPS8: allocation flag"
+  Q3SCHLCOLL_CPS8          "SCHLCOLL_CPS8: allocation flag"
+  QEDUCYRS                 "EDUCYRS: allocation flag"
+  QEMPSTAT                 "EMPSTAT: allocation flag"
+  QHEIGHT                  "HEIGHT: topcoding flag"
+  QWEIGHT                  "WEIGHT: topcoding flag"
+  QGENHEALTH               "GENHEALTH: allocation flag"
+  BLS_CAREHH               "BLS: Caring for and helping household members"
+  BLS_CAREHH_ADULT         "BLS: Caring for and helping household members: Caring for and helping household adults"
+  BLS_CAREHH_KID           "BLS: Caring for and helping household members: Caring for and helping household children"
+  BLS_CAREHH_KIDEDUC       "BLS: Caring for and helping household members: Activities related to household children's education"
+  BLS_CAREHH_KIDHEALTH     "BLS: Caring for and helping household members: Activities related to household children's health"
+  BLS_CAREHH_KIDOTHER      "BLS: Caring for and helping household members: Caring for and helping household children (except act"
+                         + "ivities related to e"
+  BLS_CAREHH_TRAVEL        "BLS: Caring for and helping household members: Travel related to caring for and helping household me"
+                         + "mbers"
+  BLS_CARENHH              "BLS: Caring for and helping non-household members"
+  BLS_CARENHH_ADULT        "BLS: Caring for and helping non-household members: Caring for and helping non-household adults"
+  BLS_CARENHH_ADULTCARE    "BLS: Caring for and helping non-household members: Caring for non-household adults"
+  BLS_CARENHH_ADULTHELP    "BLS: Caring for and helping non-household members: Helping non-household adults"
+  BLS_CARENHH_KID          "BLS: Caring for and helping non-household members: Caring for and helping non-household children"
+  BLS_CARENHH_TRAVEL       "BLS: Caring for and helping non-household members: Travel related to caring for and helping non-hous"
+                         + "ehold members"
+  BLS_COMM                 "BLS: Telephone calls, mail, and e-mail"
+  BLS_COMM_MSG             "BLS: Telephone calls, mail, and e-mail: Household and personal messages"
+  BLS_COMM_MSGEMAIL        "BLS: Telephone calls, mail, and e-mail: Household and personal e-mail and messages"
+  BLS_COMM_MSGMAIL         "BLS: Telephone calls, mail, and e-mail: Household and personal mail and messages"
+  BLS_COMM_TELE            "BLS: Telephone calls, mail, and e-mail: Telephone calls (to or from)"
+  BLS_COMM_TRAVEL          "BLS: Telephone calls, mail, and e-mail: Travel related to telephone calls"
+  BLS_EDUC                 "BLS: Educational activities"
+  BLS_EDUC_CLASS           "BLS: Educational activities: Attending class"
+  BLS_EDUC_HWORK           "BLS: Educational activities: Homework and research"
+  BLS_EDUC_TRAVEL          "BLS: Educational activities: Travel related to education"
+  BLS_FOOD                 "BLS: Eat and drinking"
+  BLS_FOOD_FOOD            "BLS: Eat and drinking: Eating and drinking"
+  BLS_FOOD_TRAVEL          "BLS: Eating and drinking: Travel related to eating and drinking"
+  BLS_HHACT                "BLS: Household activities"
+  BLS_HHACT_EXTER          "BLS: Household activities: Exterior maintenance, repair, and decoration"
+  BLS_HHACT_FOOD           "BLS: Household activities: Food preparation and cleanup"
+  BLS_HHACT_HHMGMT         "BLS: Household activities: Household management"
+  BLS_HHACT_HWORK          "BLS: Household activities: Housework"
+  BLS_HHACT_INTER          "BLS: Household activities: Interior maintenance, repair, and decoration"
+  BLS_HHACT_LAWN           "BLS: Household activities: Lawn and garden care"
+  BLS_HHACT_PET            "BLS: Household activities: Animals and pets"
+  BLS_HHACT_TOOL           "BLS: Household activities: Appliances, tools, and toys"
+  BLS_HHACT_TRAVEL         "BLS: Household activities: Travel related to household activities"
+  BLS_HHACT_VEHIC          "BLS: Household activities: Vehicles"
+  BLS_LEIS                 "BLS: Leisure and sports"
+  BLS_LEIS_ARTS            "BLS: Leisure and sports: Arts and entertainment (other than sports)"
+  BLS_LEIS_ATTEND          "BLS: Leisure and sports: Attending or hosting social events"
+  BLS_LEIS_ATTSPORT        "BLS: Leisure and sports: Attending sporting or recreational events"
+  BLS_LEIS_PARTSPORT       "BLS: Leisure and sports: Participating in sports, exercise, and recreation"
+  BLS_LEIS_RELAX           "BLS: Leisure and sports: Relaxing and leisure"
+  BLS_LEIS_SOC             "BLS: Leisure and sports: Socializing, relaxing, and leisure"
+  BLS_LEIS_SOCCOM          "BLS: Leisure and sports: Socializing and communicating"
+  BLS_LEIS_SOCCOMEX        "BLS: Leisure and sports: Socializing and communicating (except social events)"
+  BLS_LEIS_SPORT           "BLS: Leisure and sports: Sports, exercise, and recreation"
+  BLS_LEIS_TRAVEL          "BLS: Leisure and sports: Travel related to leisure and sports"
+  BLS_LEIS_TV              "BLS: Leisure and sports: Watching TV"
+  BLS_OTHER                "BLS: Other activities not elsewhere classified"
+  BLS_PCARE                "BLS: Personal care"
+  BLS_PCARE_ACT            "BLS: Personal care: Personal activities"
+  BLS_PCARE_GROOM          "BLS: Personal care: Grooming"
+  BLS_PCARE_HEALTH         "BLS: Personal care: Health-related self care"
+  BLS_PCARE_SLEEP          "BLS: Personal care: Sleeping"
+  BLS_PCARE_TRAVEL         "BLS: Personal care: Travel related to personal care"
+  BLS_PURCH                "BLS: Purchasing goods and services"
+  BLS_PURCH_BANK           "BLS: Purchasing goods and services: Financial services and banking"
+  BLS_PURCH_CONS           "BLS: Purchasing goods and services: Consumer goods purchases"
+  BLS_PURCH_GOV            "BLS: Purchasing goods and services: Government services"
+  BLS_PURCH_GROC           "BLS: Purchasing goods and services: Grocery shopping"
+  BLS_PURCH_HEALTH         "BLS: Purchasing goods and services: Medical and care services"
+  BLS_PURCH_HHSERV         "BLS: Purchasing goods and services: Household services"
+  BLS_PURCH_HOME           "BLS: Purchasing goods and services: Home maintenance, repair, decoration, and construction (not done"
+                         + " by self)"
+  BLS_PURCH_PCARE          "BLS: Purchasing goods and services: Personal care services"
+  BLS_PURCH_PROF           "BLS: Purchasing goods and services: Professional and personal care services"
+  BLS_PURCH_TRAVEL         "BLS: Purchasing goods and services: Travel related to purchasing goods and services"
+  BLS_PURCH_VEHIC          "BLS: Purchasing goods and services: Vehicle maintenance and repair services (not done by self)"
+  BLS_SOCIAL               "BLS: Organizational, civic, and religious activities"
+  BLS_SOCIAL_ADMIN         "BLS: Organizational, civic, and religious activities: Administrative and support activities"
+  BLS_SOCIAL_ATTEND        "BLS: Organizational, civic, and religious activities: Attending meetings, conferences, and training"
+  BLS_SOCIAL_CIVIC         "BLS: Organizational, civic, and religious activities: Civic obligations and participation"
+  BLS_SOCIAL_CULTURE       "BLS: Organizational, civic, and religious activities: Participating in performance and cultural acti"
+                         + "vities"
+  BLS_SOCIAL_MAINTEN       "BLS: Organizational, civic, and religious activities: Indoor and outdoor maintenance, building, and "
+                         + "cleanup activities"
+  BLS_SOCIAL_RELIG         "BLS: Organizational, civic, and religious activities: Religious and spiritual activities"
+  BLS_SOCIAL_SOCSERV       "BLS: Organizational, civic, and religious activities: Social service and care activities (except med"
+                         + "ical)"
+  BLS_SOCIAL_TRAVEL        "BLS: Organizational, civic, and religious activities: Travel related to organizational, civic, and r"
+                         + "eligious activities"
+  BLS_SOCIAL_VOL           "BLS: Organizational, civic, and religious activities: Volunteering (organizational and civic activit"
+                         + "ies)"
+  BLS_SOCIAL_VOLACT        "BLS: Organizational, civic, and religious activities: Volunteer activities"
+  BLS_WORK                 "BLS: Working and work-related activities"
+  BLS_WORK_OTHER           "BLS: Working and work-related activities: Other income-generating activities"
+  BLS_WORK_SEARCH          "BLS: Working and work-related activities: Job search and interviewing"
+  BLS_WORK_TRAVEL          "BLS: Working and work-related activities: Travel related to work"
+  BLS_WORK_WORKING         "BLS: Working and work-related activities: Working"
+  BLS_WORK_WORKREL         "BLS: Working and work-related activities: Work-related activities"
+.
+
+value labels
+  /PERNUM
+    01   "1"
+    02   "2"
+    03   "3"
+    04   "4"
+    05   "5"
+    06   "6"
+    07   "7"
+    08   "8"
+    09   "9"
+    10   "10"
+    11   "11"
+    12   "12"
+    13   "13"
+    14   "14"
+    15   "15"
+    16   "16"
+  /LINENO
+    001   "1"
+    002   "2"
+    003   "3"
+    004   "4"
+    005   "5"
+    006   "6"
+    007   "7"
+    008   "8"
+    009   "9"
+    010   "10"
+    011   "11"
+    012   "12"
+    013   "13"
+    014   "14"
+    015   "15"
+    016   "16"
+    017   "17"
+    018   "18"
+    019   "19"
+    999   "NIU (Not in universe)"
+  /SEX
+    01   "Male"
+    02   "Female"
+    99   "NIU (Not in universe)"
+  /RACE
+    "0100" : "White only"
+    "0110" : "Black only",
+    "0120" : "American Indian, Alaskan Native",
+    "0130" : "Asian or Pacific Islander",
+    "0131" : "Asian only",
+    "0132" : "Hawaiian Pacific Islander only",
+    "0200" : "White-Black",
+    "0201" : "White-American Indian",
+    "0202" : "White-Asian",
+    "0203" : "White-Hawaiian",
+    "0210" : "Black-American Indian",
+    "0211" : "Black-Asian",
+    "0212" : "Black-Hawaiian",
+    "0220" : "American Indian-Asian",
+    "0221" : "American Indian-Hawaiian",
+    "0230" : "Asian-Hawaiian",
+    "0300" : "White-Black-American Indian",
+    "0301" : "White-Black-Asian",
+    "0302" : "White-Black-Hawaiian",
+    "0310" : "White-American Indian-Asian",
+    "0311" : "White-American Indian-Hawaiian",
+    "0320" : "White-Asian-Hawaiian",
+    "0330" : "Black-American Indian-Asian",
+    "0331" : "Black-American Indian-Hawaiian",
+    "0340" : "Black-Asian-Hawaiian",
+    "0350" : "American Indian-Asian-Hawaiian",
+    "0398" : "Other 3 race combinations",
+    "0399" : "2 or 3 races, unspecified",
+    "0400" : "White-Black-American Indian-Asian",
+    "0401" : "White-Black-American Indian-Hawaiian",
+    "0402" : "White-Black-Asian-Hawaiian",
+    "0403" : "Black-American Indian-Asian-Hawaiian",
+    "0404" : "White-American Indian-Asian-Hawaiian",
+    "0500" : "White-Black-American Indian-Asian-Hawaiian",
+    "0599" : "4 or 5 races, unspecified",
+    "9999" : "NIU (Not in universe)"
+  /MARST
+    "01" : "Married - spouse present",
+    "02" : "Married - spouse absent",
+    "03" : "Widowed",
+    "04" : "Divorced",
+    "05" : "Separated",
+    "06" : "Never married",
+    "99" : "NIU (Not in universe)"
+  /CITIZEN
+    "001" : "Native, born in United States",
+    "002" : "Native, born in Puerto Rico or U.S. Outlying Area",
+    "003" : "Native, born abroad of American parent or parents",
+    "004" : "Foreign born, U.S. citizen by naturalization",
+    "005" : "Foreign born, not a U.S. citizen",
+    "999" : "NIU (Not in universe)"
+  /GENHEALTH
+    "01" : "Excellent",
+    "02" : "Very good",
+    "03" : "Good",
+    "04" : "Fair",
+    "05" : "Poor",
+    "96" : "Refused",
+    "97" : "Don't know",
+    "99" : "NIU (Not in universe)"
+  /HEIGHT
+    "056" : "56"
+    "057" : "57"
+    "058" : "58"
+    "059" : "59"
+    "060" : "60"
+    "061" : "61"
+    "062" : "62"
+    "063" : "63"
+    "064" : "64"
+    "065" : "65"
+    "066" : "66"
+    "067" : "67"
+    "068" : "68"
+    "069" : "69"
+    "070" : "70"
+    "071" : "71"
+    "072" : "72"
+    "073" : "73"
+    "074" : "74"
+    "075" : "75"
+    "076" : "76"
+    "077" : "77"
+    "996" : "Refused"
+    "997" : "Don't know"
+    "999" : "NIU (Not in universe)"
+  /EDUC
+    "010" : "Less than 1st grade",
+    "011" : "1st, 2nd, 3rd, or 4th grade",
+    "012" : "5th or 6th grade",
+    "013" : "7th or 8th grade",
+    "014" : "9th grade",
+    "015" : "10th grade",
+    "016" : "11th grade",
+    "017" : "12th grade - no diploma",
+    "020" : "High school graduate - GED",
+    "021" : "High school graduate - diploma",
+    "030" : "Some college but no degree",
+    "031" : "Associate degree - occupational vocational",
+    "032" : "Associate degree - academic program",
+    "040" : "Bachelor's degree (BA, AB, BS, etc.)",
+    "041" : "Master's degree (MA, MS, MEng, MEd, MSW, etc.)",
+    "042" : "Professional school degree (MD, DDS, DVM, etc.)",
+    "043" : "Doctoral degree (PhD, EdD, etc.)",
+    "999" : "NIU (Not in universe)"
+  /EDUCYRS
+    "100" : "Grades 1-12",
+    "101" : "Less than first grade",
+    "102" : "First through fourth grade",
+    "105" : "Fifth through sixth grade",
+    "107" : "Seventh through eighth grade",
+    "109" : "Ninth grade",
+    "110" : "Tenth grade",
+    "111" : "Eleventh grade",
+    "112" : "Twelfth grade",
+    "200" : "College",
+    "213" : "College--one year",
+    "214" : "College--two years",
+    "215" : "College--three years",
+    "216" : "College--four years",
+    "217" : "Bachelor's degree",
+    "300" : "Advanced degree",
+    "316" : "Master's degree",
+    "317" : "Master's degree--one year program",
+    "318" : "Master's degree--two year program",
+    "319" : "Master's degree--three+ year program",
+    "320" : "Professional degree",
+    "321" : "Doctoral degree",
+    "999" : "NIU (Not in universe)"
+  /SCHLCOLL
+    "01" : "Not enrolled",
+    "02" : "High school part time",
+    "03" : "High school full time",
+    "04" : "College/university part time",
+    "05" : "College/university full time",
+    "96" : "Refused",
+    "99" : "NIU (Not in universe)"
+  /SCHLCOLL_CPS8
+    "01" : "Not enrolled",
+    "02" : "High school part time",
+    "03" : "High school full time",
+    "04" : "College/university part time",
+    "05" : "College/university full time",
+    "98" : "Blank",
+    "99" : "NIU (Not in universe)"
+  /EMPSTAT
+    "01" : "Employed - at work",
+    "02" : "Employed - absent",
+    "03" : "Unemployed - on layoff",
+    "04" : "Unemployed - looking",
+    "05" : "Not in labor force",
+    "99" : "NIU (Not in universe)"
+  /CLWKR
+    "01" : "Government, federal",
+    "02" : "Government, state",
+    "03" : "Government, local",
+    "04" : "Private, for profit",
+    "05" : "Private, nonprofit",
+    "06" : "Self-employed, incorporated",
+    "07" : "Self-employed, unincorporated",
+    "08" : "Without pay",
+    "99" : "NIU (Not in universe)"
+  /OCC2
+    "0110" : "Management occupations",
+    "0111" : "Business and financial operations occupations",
+    "0120" : "Computer and mathematical science occupations",
+    "0121" : "Architecture and engineering occupations",
+    "0122" : "Life, physical, and social science occupations",
+    "0123" : "Community and social service occupations",
+    "0124" : "Legal occupations",
+    "0125" : "Education, training, and library occupations",
+    "0126" : "Arts, design, entertainment, sports, and media occupations",
+    "0127" : "Healthcare practitioner and technical occupations",
+    "0130" : "Healthcare support occupations",
+    "0131" : "Protective service occupations",
+    "0132" : "Food preparation and serving related occupations",
+    "0133" : "Building and grounds cleaning and maintenance occupations",
+    "0134" : "Personal care and service occupations",
+    "0140" : "Sales and related occupations",
+    "0150" : "Office and administrative support occupations",
+    "0160" : "Farming, fishing, and forestry occupations",
+    "0170" : "Construction and extraction occupations",
+    "0180" : "Installation, maintenance, and repair occupations",
+    "0190" : "Production occupations",
+    "0200" : "Transportation and material moving occupations",
+    "9999" : "NIU (Not in universe)"
+  /QCITIZEN
+    "000" : "Value - no change"
+    "010" : "Value to value"
+    "021" : "Blank to longitudinal value"
+    "040" : "Value to allocated value"
+    "041" : "Blank to allocated value"
+    "999" : "NIU (Not in universe)"
+  /Q1SCHLCOLL
+    "000" : "Value - no change"
+    "010" : "Value to value"
+    "011" : "Blank to value"
+    "013" : "Refused to value"
+    "041" : "Blank to allocated value"
+    "042" : "Don't know to allocated value"
+    "043" : "Refused to allocated value"
+    "998" : "Blank"
+    "999" : "NIU (Not in universe)"
+  /Q2SCHLCOLL
+    "000" : "Value - no change"
+    "001" : "Blank - no change"
+    "010" : "Value to value"
+    "011" : "Blank to value"
+    "012" : "Don't know to value"
+    "013" : "Refused to value"
+    "041" : "Blank to allocated value"
+    "042" : "Don't know to allocated value"
+    "043" : "Refused to allocated value"
+    "998" : "Blank"
+    "999" : "NIU (Not in universe)"
+  /Q3SCHLCOLL
+    000   "Value - no change"
+    001   "Blank - no change"
+    010   "Value to value"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /Q1RACE
+    000   "Value - no change"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    021   "Blank to longitudinal value"
+    022   "Don't know to longitudinal value"
+    023   "Refused to longitudinal value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /Q2RACE
+    00   "Not imputed"
+    01   "Imputed based on not imputed race variable"
+    02   "Imputed based on imputed race variable"
+    99   "NIU (Not in universe)"
+  /QEDUC
+    000   "Value - no change"
+    001   "Blank - no change"
+    021   "Blank to longitudinal value"
+    022   "Don't know to longitudinal value"
+    023   "Refused to longitudinal value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    050   "Value to blank"
+    052   "Don't know to blank"
+    053   "Refused to blank"
+    999   "NIU (Not in universe)"
+  /QMARST
+    000   "Value - no change"
+    001   "Blank - no change"
+    010   "Value to value"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    040   "Value to allocated value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    050   "Value to blank"
+    052   "Don't know to blank"
+    053   "Refused to blank"
+    999   "NIU (Not in universe)"
+  /QCLWKR
+    000   "Value - no change"
+    010   "Value to value"
+    011   "Blank to value"
+    020   "Value to longitudinal value"
+    021   "Blank to longitudinal value"
+    040   "Value to allocated value"
+    041   "Blank to allocated value"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /QAGE
+    000   "Value - no change"
+    002   "Don't know - no change"
+    003   "Refused - no change"
+    011   "Blank to value"
+    020   "Value to longitudinal value"
+    021   "Blank to longitudinal value"
+    022   "Don't know to longitudinal value"
+    023   "Refused to longitudinal value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    060   "Topcoded"
+    999   "NIU (Not in universe)"
+  /QSEX
+    000   "Value - no change"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    022   "Don't know to longitudinal value"
+    023   "Refused to longitudinal value"
+    999   "NIU (Not in universe)"
+  /Q1SCHLCOLL_CPS8
+    000   "Value - no change"
+    010   "Value to value"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /Q2SCHLCOLL_CPS8
+    000   "Value - no change"
+    001   "Blank - no change"
+    010   "Value to value"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /Q3SCHLCOLL_CPS8
+    000   "Value - no change"
+    001   "Blank - no change"
+    011   "Blank to value"
+    012   "Don't know to value"
+    013   "Refused to value"
+    050   "Value to blank"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /QEDUCYRS
+    00   "Not allocated"
+    01   "Allocated"
+    99   "NIU (Not in universe)"
+  /QEMPSTAT
+    000   "Value - no change"
+    012   "Don't know to value"
+    013   "Refused to value"
+    998   "Blank"
+    999   "NIU (Not in universe)"
+  /QHEIGHT
+    00   "HEIGHT not topcoded or bottomcoded"
+    01   "HEIGHT topcoded"
+    02   "HEIGHT bottom coded"
+    98   "Blank"
+    99   "NIU (Not in universe)"
+  /QWEIGHT
+    00   "WEIGHT not topcoded or bottomcoded"
+    01   "WEIGHT topcoded"
+    02   "WEIGHT bottom coded"
+    98   "Blank"
+    99   "NIU (Not in universe)"
+  /QGENHEALTH
+    000   "Value- no change"
+    041   "Blank to allocated value"
+    042   "Don't know to allocated value"
+    043   "Refused to allocated value"
+    999   "NIU (Not in universe)"
+.
+
+execute.
+

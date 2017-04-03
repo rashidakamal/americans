@@ -1,0 +1,2126 @@
+Samples selected:
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len    2003    2004    2005    2006    2007    2008    2009    2010    2011    2012    2013    2014    2015   
+  CASEID             1   1-14          14      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  YEAR               1  15-19           5      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  PERNUM             2  20-21           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  LINENO             2  22-24           3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  DATE               2  25-33           9      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  WT06               2  34-50          17      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  AGE                2  51-53           3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  SEX                2  54-55           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  RACE               2  56-59           4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  MARST              2  60-61           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  CITIZEN            2  62-64           3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  GENHEALTH          2  65-66           2      .       .       .       X       X       X       .       X       X       X       X       X       . 
+  HEIGHT             2  67-69           3      .       .       .       X       X       X       .       .       .       .       .       X       . 
+  WEIGHT             2  70-73           4      .       .       .       X       X       X       .       .       .       .       .       X       . 
+  BMI                2  74-79           6      .       .       .       X       X       X       .       .       .       .       .       X       . 
+  EDUC               2  80-82           3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  EDUCYRS            2  83-85           3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  SCHLCOLL           2  86-87           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  SCHLCOLL_CPS8      2  88-89           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  EMPSTAT            2  90-91           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  CLWKR              2  92-93           2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  OCC2               2  94-97           4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QCITIZEN         q 2  98-100          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q1SCHLCOLL       q 2 101-103          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q2SCHLCOLL       q 2 104-106          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q3SCHLCOLL       q 2 107-109          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q1RACE           q 2 110-112          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q2RACE           q 2 113-114          2      X       .       .       .       .       .       .       .       .       .       .       .       . 
+  QEDUC            q 2 115-117          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QMARST           q 2 118-120          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QCLWKR           q 2 121-123          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QAGE             q 2 124-126          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QSEX             q 2 127-129          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q1SCHLCOLL_CPS8  q 2 130-132          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q2SCHLCOLL_CPS8  q 2 133-135          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  Q3SCHLCOLL_CPS8  q 2 136-138          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QEDUCYRS         q 2 139-140          2      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QEMPSTAT         q 2 141-143          3      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  QHEIGHT          q 2 144-145          2      .       .       .       X       X       X       .       .       .       .       .       X       . 
+  QWEIGHT          q 2 146-147          2      .       .       .       X       X       X       .       .       .       .       .       X       . 
+  QGENHEALTH       q 2 148-150          3      .       .       .       .       .       .       .       X       X       X       X       .       . 
+  BLS_CAREHH         2 151-154          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CAREHH_ADULT   2 155-158          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CAREHH_KID     2 159-162          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CAREHH_KIDEDUC   2 163-166          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CAREHH_KIDHEALTH   2 167-170          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CAREHH_KIDOTHER   2 171-174          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CAREHH_TRAVEL   2 175-178          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CARENHH        2 179-182          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CARENHH_ADULT   2 183-186          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CARENHH_ADULTCARE   2 187-190          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CARENHH_ADULTHELP   2 191-194          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CARENHH_KID    2 195-198          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_CARENHH_TRAVEL   2 199-202          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_COMM           2 203-206          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_COMM_MSG       2 207-210          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_COMM_MSGEMAIL   2 211-214          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_COMM_MSGMAIL   2 215-218          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_COMM_TELE      2 219-222          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_COMM_TRAVEL    2 223-226          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_EDUC           2 227-230          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_EDUC_CLASS     2 231-234          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_EDUC_HWORK     2 235-238          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_EDUC_TRAVEL    2 239-242          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_FOOD           2 243-246          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_FOOD_FOOD      2 247-250          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_FOOD_TRAVEL    2 251-254          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT          2 255-258          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_EXTER    2 259-262          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_FOOD     2 263-266          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_HHMGMT   2 267-270          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_HWORK    2 271-274          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_INTER    2 275-278          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_LAWN     2 279-282          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_PET      2 283-286          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_TOOL     2 287-290          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_TRAVEL   2 291-294          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_HHACT_VEHIC    2 295-298          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS           2 299-302          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_ARTS      2 303-306          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_ATTEND    2 307-310          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_ATTSPORT   2 311-314          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_PARTSPORT   2 315-318          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_RELAX     2 319-322          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_SOC       2 323-326          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_SOCCOM    2 327-330          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_SOCCOMEX   2 331-334          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_SPORT     2 335-338          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_TRAVEL    2 339-342          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_LEIS_TV        2 343-346          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_OTHER          2 347-350          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PCARE          2 351-354          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_ACT      2 355-358          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_GROOM    2 359-362          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_HEALTH   2 363-366          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_SLEEP    2 367-370          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_TRAVEL   2 371-374          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH          2 375-378          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_BANK     2 379-382          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_CONS     2 383-386          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_GOV      2 387-390          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_GROC     2 391-394          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_HEALTH   2 395-398          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_HHSERV   2 399-402          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_HOME     2 403-406          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_PCARE    2 407-410          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_PROF     2 411-414          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_TRAVEL   2 415-418          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_PURCH_VEHIC    2 419-422          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL         2 423-426          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_ADMIN   2 427-430          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_ATTEND   2 431-434          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_CIVIC   2 435-438          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_CULTURE   2 439-442          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_MAINTEN   2 443-446          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_RELIG   2 447-450          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_SOCSERV   2 451-454          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_TRAVEL   2 455-458          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_VOL     2 459-462          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_SOCIAL_VOLACT   2 463-466          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_WORK           2 467-470          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_WORK_OTHER     2 471-474          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_WORK_SEARCH    2 475-478          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_WORK_TRAVEL    2 479-482          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_WORK_WORKING   2 483-486          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+  BLS_WORK_WORKREL   2 487-490          4      X       X       X       X       X       X       X       X       X       X       X       X       X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+Time Use Variables:
+  BLS_CAREHH
+    Activity specifications:
+      030000  Caring for and Helping Household Members
+        180300  Travel Related to Caring for and Helping Household Members
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CAREHH_ADULT
+    Activity specifications:
+        030400  Caring for Household Adults
+        030500  Helping Household Adults
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CAREHH_KID
+    Activity specifications:
+        030100  Caring for and Helping Household Children
+        030200  Activities Related to Household Children's Education
+        030300  Activities Related to Household Children's Health
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CAREHH_KIDEDUC
+    Activity specifications:
+        030200  Activities Related to Household Children's Education
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CAREHH_KIDHEALTH
+    Activity specifications:
+        030300  Activities Related to Household Children's Health
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CAREHH_KIDOTHER
+    Activity specifications:
+        030100  Caring for and Helping Household Children
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CAREHH_TRAVEL
+    Activity specifications:
+        180300  Travel Related to Caring for and Helping Household Members
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CARENHH
+    Activity specifications:
+      040000  Caring for and Helping Non-Household Members
+        180400  Travel Related to Caring for and Helping Non-Household Members
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CARENHH_ADULT
+    Activity specifications:
+        040400  Caring for Non-Household Adults
+        040500  Helping Non-Household Adults
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CARENHH_ADULTCARE
+    Activity specifications:
+        040400  Caring for Non-Household Adults
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CARENHH_ADULTHELP
+    Activity specifications:
+        040500  Helping Non-Household Adults
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CARENHH_KID
+    Activity specifications:
+        040100  Caring for and Helping Non-Household Children
+        040200  Activities Related to Non-Household Children's Education
+        040300  Activities Related to Non-Household Children's Health
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_CARENHH_TRAVEL
+    Activity specifications:
+        180400  Travel Related to Caring for and Helping Non-Household Members
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_COMM
+    Activity specifications:
+      160000  Telephone Calls
+        181600  Travel Related to Phone Calls
+          020903  Household and personal mail and messages (except e-mail)
+          020904  Household and personal e-mail and messages
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_COMM_MSG
+    Activity specifications:
+          020903  Household and personal mail and messages (except e-mail)
+          020904  Household and personal e-mail and messages
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_COMM_MSGEMAIL
+    Activity specifications:
+          020904  Household and personal e-mail and messages
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_COMM_MSGMAIL
+    Activity specifications:
+          020903  Household and personal mail and messages (except e-mail)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_COMM_TELE
+    Activity specifications:
+        160100  Telephone Calls (to or from)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_COMM_TRAVEL
+    Activity specifications:
+        181600  Travel Related to Phone Calls
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_EDUC
+    Activity specifications:
+      060000  Education
+        180600  Travel Related to Education
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_EDUC_CLASS
+    Activity specifications:
+        060100  Taking Class
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_EDUC_HWORK
+    Activity specifications:
+        060300  Research or Homework
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_EDUC_TRAVEL
+    Activity specifications:
+        180600  Travel Related to Education
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_FOOD
+    Activity specifications:
+      110000  Eating and Drinking
+        181100  Travel Related to Eating and Drinking
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_FOOD_FOOD
+    Activity specifications:
+        110100  Eating and Drinking
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_FOOD_TRAVEL
+    Activity specifications:
+        181100  Travel Related to Eating and Drinking
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT
+    Activity specifications:
+      020000  Household Activities
+        020100  Housework
+        020200  Food and Drink Preparation, Presentation, and Clean-up
+        020300  Interior Maintenance, Repair, and Decoration
+        020400  Exterior Maintenance, Repair, and Decoration
+        020500  Lawn, Garden, and Houseplants
+        020600  Animals and Pets
+        020700  Vehicles
+        020800  Appliances, Tools, and Toys
+        020900  Household Management
+          020901  Financial management
+          020902  Household and personal organization and planning
+          020905  Home security
+          020999  Household management, n.e.c.
+        029900  Household Activities, n.e.c.
+        180200  Travel Related to Household Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_EXTER
+    Activity specifications:
+        020400  Exterior Maintenance, Repair, and Decoration
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_FOOD
+    Activity specifications:
+        020200  Food and Drink Preparation, Presentation, and Clean-up
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_HHMGMT
+    Activity specifications:
+        020900  Household Management
+          020901  Financial management
+          020902  Household and personal organization and planning
+          020905  Home security
+          020999  Household management, n.e.c.
+        029900  Household Activities, n.e.c.
+          029999  Household activities, n.e.c.
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_HWORK
+    Activity specifications:
+        020100  Housework
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_INTER
+    Activity specifications:
+        020300  Interior Maintenance, Repair, and Decoration
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_LAWN
+    Activity specifications:
+        020500  Lawn, Garden, and Houseplants
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_PET
+    Activity specifications:
+        020600  Animals and Pets
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_TOOL
+    Activity specifications:
+        020800  Appliances, Tools, and Toys
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_TRAVEL
+    Activity specifications:
+        180200  Travel Related to Household Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_HHACT_VEHIC
+    Activity specifications:
+        020700  Vehicles
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS
+    Activity specifications:
+      120000  Socializing, Relaxing, and Leisure
+      130000  Sports, Exercise, and Recreation
+        181200  Travel Related to Socializing, Relaxing, and Leisure
+        181300  Travel Related to Sports, Exercise, and Recreation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_ARTS
+    Activity specifications:
+        120400  Arts and Entertainment (other than sports)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_ATTEND
+    Activity specifications:
+        120200  Attending or Hosting Social Events
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_ATTSPORT
+    Activity specifications:
+        130200  Attending Sports or Recreational Events
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_PARTSPORT
+    Activity specifications:
+        130100  Participating in Sports, Exercise, or Recreation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_RELAX
+    Activity specifications:
+        120300  Relaxing and Leisure
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_SOC
+    Activity specifications:
+      120000  Socializing, Relaxing, and Leisure
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_SOCCOM
+    Activity specifications:
+        120100  Socializing and Communicating
+        120200  Attending or Hosting Social Events
+          120501  Waiting associated with socializing and communicating
+          120502  Waiting associated with attending or hosting social events
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_SOCCOMEX
+    Activity specifications:
+        120100  Socializing and Communicating
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_SPORT
+    Activity specifications:
+      130000  Sports, Exercise, and Recreation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_TRAVEL
+    Activity specifications:
+        181200  Travel Related to Socializing, Relaxing, and Leisure
+        181300  Travel Related to Sports, Exercise, and Recreation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_LEIS_TV
+    Activity specifications:
+          120303  Television and movies (not religious)
+          120304  Television (religious)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_OTHER
+    Activity specifications:
+        181800  Security Procedures Related to Traveling
+        189900  Traveling, n.e.c.
+      500000  Data Codes
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PCARE
+    Activity specifications:
+      010000  Personal Care
+        180100  Travel Related to Personal Care
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PCARE_ACT
+    Activity specifications:
+        010400  Personal Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PCARE_GROOM
+    Activity specifications:
+        010200  Grooming
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PCARE_HEALTH
+    Activity specifications:
+        010300  Health-Related Self Care
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PCARE_SLEEP
+    Activity specifications:
+        010100  Sleeping
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PCARE_TRAVEL
+    Activity specifications:
+        180100  Travel Related to Personal Care
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH
+    Activity specifications:
+      070000  Consumer Purchases
+      080000  Professional and Personal Care Services
+      090000  Household Services
+        100100  Using Government Services
+          100303  Waiting associated with civic obligations and participation
+          100304  Waiting associated with using government services
+          100399  Waiting associated with government services or civic obligations, n.e.c.
+        100400  Security Procedures Related to Government Services or Civic Obligations
+        109900  Government Services, n.e.c.
+        180700  Travel Related to Consumer Purchases
+        180800  Travel Related to Using Professional and Personal Care Services
+        180900  Travel Related to Using Household Services
+          181001  Travel related to using government services
+          181002  Travel related to civic obligations and participation
+          181099  Travel related to government services and civic obligations, n.e.c.
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_BANK
+    Activity specifications:
+        080200  Financial Services and Banking
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_CONS
+    Activity specifications:
+      070000  Consumer Purchases
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_GOV
+    Activity specifications:
+        100100  Using Government Services
+          100303  Waiting associated with civic obligations and participation
+          100304  Waiting associated with using government services
+          100399  Waiting associated with government services or civic obligations, n.e.c.
+        100400  Security Procedures Related to Government Services or Civic Obligations
+        109900  Government Services, n.e.c.
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_GROC
+    Activity specifications:
+          070101  Grocery shopping
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_HEALTH
+    Activity specifications:
+        080400  Medical and Care Services
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_HHSERV
+    Activity specifications:
+      090000  Household Services
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_HOME
+    Activity specifications:
+        090200  Home Maintenance, Repair, Decoration, and Construction (not done by self)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_PCARE
+    Activity specifications:
+        080500  Personal Care Services
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_PROF
+    Activity specifications:
+      080000  Professional and Personal Care Services
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_TRAVEL
+    Activity specifications:
+        180700  Travel Related to Consumer Purchases
+        180800  Travel Related to Using Professional and Personal Care Services
+        180900  Travel Related to Using Household Services
+          181001  Travel related to using government services
+          181002  Travel related to civic obligations and participation
+          181099  Travel related to government services and civic obligations, n.e.c.
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_PURCH_VEHIC
+    Activity specifications:
+        090500  Vehicle Maintenance and Repair Services (not done by self)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL
+    Activity specifications:
+      140000  Religious and Spiritual Activities
+      150000  Volunteer Activities
+        100200  Civic Obligations and Participation
+          100303  Waiting associated with civic obligations and participation
+        181400  Travel Related to Religious or Spiritual Activities
+        181500  Travel Related to Volunteering
+          181002  Travel related to civic obligations and participation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_ADMIN
+    Activity specifications:
+        150100  Administrative and Support Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_ATTEND
+    Activity specifications:
+        150500  Attending Meetings, Conferences, and Training
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_CIVIC
+    Activity specifications:
+        100200  Civic Obligations and Participation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_CULTURE
+    Activity specifications:
+        150400  Participating in Performance and Cultural Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_MAINTEN
+    Activity specifications:
+        150300  Indoor and Outdoor Maintenance, Building, and Clean-Up Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_RELIG
+    Activity specifications:
+        140100  Religious or Spiritual Practices
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_SOCSERV
+    Activity specifications:
+        150200  Social Service and Care Activities (except medical)
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_TRAVEL
+    Activity specifications:
+        181400  Travel Related to Religious or Spiritual Activities
+        181500  Travel Related to Volunteering
+          181002  Travel related to civic obligations and participation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_VOL
+    Activity specifications:
+      150000  Volunteer Activities
+        100200  Civic Obligations and Participation
+          100303  Waiting associated with civic obligations and participation
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_SOCIAL_VOLACT
+    Activity specifications:
+      150000  Volunteer Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_WORK
+    Activity specifications:
+      050000  Work and Work-Related Activities
+        180500  Travel Related to Work
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_WORK_OTHER
+    Activity specifications:
+        050300  Other Income-Generating Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_WORK_SEARCH
+    Activity specifications:
+        050400  Job Search and Interviewing
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_WORK_TRAVEL
+    Activity specifications:
+        180500  Travel Related to Work
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_WORK_WORKING
+    Activity specifications:
+        050100  Working
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+  BLS_WORK_WORKREL
+    Activity specifications:
+        050200  Work-Related Activities
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+
+ PERNUM		Person number (general)
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+
+ LINENO		Person line number
+001		1
+002		2
+003		3
+004		4
+005		5
+006		6
+007		7
+008		8
+009		9
+010		10
+011		11
+012		12
+013		13
+014		14
+015		15
+016		16
+017		17
+018		18
+019		19
+999		NIU (Not in universe)
+
+ SEX		Sex
+01		Male
+02		Female
+99		NIU (Not in universe)
+
+ RACE		Race
+		uber
+0100		White only
+0110		Black only
+0120		American Indian, Alaskan Native
+0130		Asian or Pacific Islander
+0131		Asian only
+0132		Hawaiian Pacific Islander only
+		uber
+0200		White-Black
+0201		White-American Indian
+0202		White-Asian
+0203		White-Hawaiian
+0210		Black-American Indian
+0211		Black-Asian
+0212		Black-Hawaiian
+0220		American Indian-Asian
+0221		American Indian-Hawaiian
+0230		Asian-Hawaiian
+0300		White-Black-American Indian
+0301		White-Black-Asian
+0302		White-Black-Hawaiian
+0310		White-American Indian-Asian
+0311		White-American Indian-Hawaiian
+0320		White-Asian-Hawaiian
+0330		Black-American Indian-Asian
+0331		Black-American Indian-Hawaiian
+0340		Black-Asian-Hawaiian
+0350		American Indian-Asian-Hawaiian
+0398		Other 3 race combinations
+0399		2 or 3 races, unspecified
+0400		White-Black-American Indian-Asian
+0401		White-Black-American Indian-Hawaiian
+0402		White-Black-Asian-Hawaiian
+0403		Black-American Indian-Asian-Hawaiian
+0404		White-American Indian-Asian-Hawaiian
+0500		White-Black-American Indian-Asian-Hawaiian
+0599		4 or 5 races, unspecified
+9999		NIU (Not in universe)
+
+ MARST		Marital status
+01		Married - spouse present
+02		Married - spouse absent
+03		Widowed
+04		Divorced
+05		Separated
+06		Never married
+99		NIU (Not in universe)
+
+ CITIZEN		Citizenship status
+001		Native, born in United States
+002		Native, born in Puerto Rico or U.S. Outlying Area
+003		Native, born abroad of American parent or parents
+004		Foreign born, U.S. citizen by naturalization
+005		Foreign born, not a U.S. citizen
+999		NIU (Not in universe)
+
+ GENHEALTH		General health
+01		Excellent
+02		Very good
+03		Good
+04		Fair
+05		Poor
+96		Refused
+97		Don't know
+99		NIU (Not in universe)
+
+ HEIGHT		Height (in inches)
+056		56
+057		57
+058		58
+059		59
+060		60
+061		61
+062		62
+063		63
+064		64
+065		65
+066		66
+067		67
+068		68
+069		69
+070		70
+071		71
+072		72
+073		73
+074		74
+075		75
+076		76
+077		77
+996		Refused
+997		Don't know
+999		NIU (Not in universe)
+
+ EDUC		Highest level of school completed
+		Less than HS diploma
+010		Less than 1st grade
+011		1st, 2nd, 3rd, or 4th grade
+012		5th or 6th grade
+013		7th or 8th grade
+014		9th grade
+015		10th grade
+016		11th grade
+017		12th grade - no diploma
+		HS diploma, no college
+020		High school graduate - GED
+021		High school graduate - diploma
+		Some college
+030		Some college but no degree
+031		Associate degree - occupational vocational
+032		Associate degree - academic program
+		College degree +
+040		Bachelor's degree (BA, AB, BS, etc.)
+041		Master's degree (MA, MS, MEng, MEd, MSW, etc.)
+042		Professional school degree (MD, DDS, DVM, etc.)
+043		Doctoral degree (PhD, EdD, etc.)
+999		NIU (Not in universe)
+
+ EDUCYRS		Years of education
+100		Grades 1-12
+101		Less than first grade
+102		First through fourth grade
+105		Fifth through sixth grade
+107		Seventh through eighth grade
+109		Ninth grade
+110		Tenth grade
+111		Eleventh grade
+112		Twelfth grade
+200		College
+213		College--one year
+214		College--two years
+215		College--three years
+216		College--four years
+217		Bachelor's degree
+300		Advanced degree
+316		Master's degree
+317		Master's degree--one year program
+318		Master's degree--two year program
+319		Master's degree--three+ year program
+320		Professional degree
+321		Doctoral degree
+999		NIU (Not in universe)
+
+ SCHLCOLL		Enrollment in school or college
+01		Not enrolled
+02		High school part time
+03		High school full time
+04		College/university part time
+05		College/university full time
+96		Refused
+99		NIU (Not in universe)
+
+ SCHLCOLL_CPS8		Enrollment in school or college (CPS)
+01		Not enrolled
+02		High school part time
+03		High school full time
+04		College/university part time
+05		College/university full time
+98		Blank
+99		NIU (Not in universe)
+
+ EMPSTAT		Labor force status
+01		Employed - at work
+02		Employed - absent
+03		Unemployed - on layoff
+04		Unemployed - looking
+05		Not in labor force
+99		NIU (Not in universe)
+
+ CLWKR		Class of worker, main job
+01		Government, federal
+02		Government, state
+03		Government, local
+04		Private, for profit
+05		Private, nonprofit
+06		Self-employed, incorporated
+07		Self-employed, unincorporated
+08		Without pay
+99		NIU (Not in universe)
+
+ OCC2		General occupation category, main job
+		Management, business, and financial occupations
+0110		Management occupations
+0111		Business and financial operations occupations
+		Professional and related occupations
+0120		Computer and mathematical science occupations
+0121		Architecture and engineering occupations
+0122		Life, physical, and social science occupations
+0123		Community and social service occupations
+0124		Legal occupations
+0125		Education, training, and library occupations
+0126		Arts, design, entertainment, sports, and media occupations
+0127		Healthcare practitioner and technical occupations
+		Service Occupations
+0130		Healthcare support occupations
+0131		Protective service occupations
+0132		Food preparation and serving related occupations
+0133		Building and grounds cleaning and maintenance occupations
+0134		Personal care and service occupations
+0140		Sales and related occupations
+0150		Office and administrative support occupations
+0160		Farming, fishing, and forestry occupations
+0170		Construction and extraction occupations
+0180		Installation, maintenance, and repair occupations
+0190		Production occupations
+0200		Transportation and material moving occupations
+9999		NIU (Not in universe)
+
+ QCITIZEN		CITIZEN: allocation flag
+000		Value - no change
+010		Value to value
+021		Blank to longitudinal value
+040		Value to allocated value
+041		Blank to allocated value
+999		NIU (Not in universe)
+
+ Q1SCHLCOLL		SCHLCOLL: allocation flag
+000		Value - no change
+010		Value to value
+011		Blank to value
+013		Refused to value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ Q2SCHLCOLL		SCHLCOLL: allocation flag
+000		Value - no change
+001		Blank - no change
+010		Value to value
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ Q3SCHLCOLL		SCHLCOLL: allocation flag
+000		Value - no change
+001		Blank - no change
+010		Value to value
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ Q1RACE		RACE: allocation flag
+000		Value - no change
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+021		Blank to longitudinal value
+022		Don't know to longitudinal value
+023		Refused to longitudinal value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ Q2RACE		RACE: allocation flag
+00		Not imputed
+01		Imputed based on not imputed race variable
+02		Imputed based on imputed race variable
+99		NIU (Not in universe)
+
+ QEDUC		EDUC: allocation flag
+000		Value - no change
+001		Blank - no change
+021		Blank to longitudinal value
+022		Don't know to longitudinal value
+023		Refused to longitudinal value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+050		Value to blank
+052		Don't know to blank
+053		Refused to blank
+999		NIU (Not in universe)
+
+ QMARST		MARST: allocation flag
+000		Value - no change
+001		Blank - no change
+010		Value to value
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+040		Value to allocated value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+050		Value to blank
+052		Don't know to blank
+053		Refused to blank
+999		NIU (Not in universe)
+
+ QCLWKR		CLWKR: allocation flag
+000		Value - no change
+010		Value to value
+011		Blank to value
+020		Value to longitudinal value
+021		Blank to longitudinal value
+040		Value to allocated value
+041		Blank to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ QAGE		AGE: allocation flag
+000		Value - no change
+002		Don't know - no change
+003		Refused - no change
+011		Blank to value
+020		Value to longitudinal value
+021		Blank to longitudinal value
+022		Don't know to longitudinal value
+023		Refused to longitudinal value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+060		Topcoded
+999		NIU (Not in universe)
+
+ QSEX		SEX: allocation flag
+000		Value - no change
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+022		Don't know to longitudinal value
+023		Refused to longitudinal value
+999		NIU (Not in universe)
+
+ Q1SCHLCOLL_CPS8		SCHLCOLL_CPS8: allocation flag
+000		Value - no change
+010		Value to value
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ Q2SCHLCOLL_CPS8		SCHLCOLL_CPS8: allocation flag
+000		Value - no change
+001		Blank - no change
+010		Value to value
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+998		Blank
+999		NIU (Not in universe)
+
+ Q3SCHLCOLL_CPS8		SCHLCOLL_CPS8: allocation flag
+000		Value - no change
+001		Blank - no change
+011		Blank to value
+012		Don't know to value
+013		Refused to value
+050		Value to blank
+998		Blank
+999		NIU (Not in universe)
+
+ QEDUCYRS		EDUCYRS: allocation flag
+00		Not allocated
+01		Allocated
+99		NIU (Not in universe)
+
+ QEMPSTAT		EMPSTAT: allocation flag
+000		Value - no change
+012		Don't know to value
+013		Refused to value
+998		Blank
+999		NIU (Not in universe)
+
+ QHEIGHT		HEIGHT: topcoding flag
+00		HEIGHT not topcoded or bottomcoded
+01		HEIGHT topcoded
+02		HEIGHT bottom coded
+98		Blank
+99		NIU (Not in universe)
+
+ QWEIGHT		WEIGHT: topcoding flag
+00		WEIGHT not topcoded or bottomcoded
+01		WEIGHT topcoded
+02		WEIGHT bottom coded
+98		Blank
+99		NIU (Not in universe)
+
+ QGENHEALTH		GENHEALTH: allocation flag
+000		Value- no change
+041		Blank to allocated value
+042		Don't know to allocated value
+043		Refused to allocated value
+999		NIU (Not in universe)
